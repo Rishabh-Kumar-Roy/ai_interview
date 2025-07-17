@@ -21,6 +21,14 @@ NextHirePrep is a React + TypeScript web application for practicing technical in
 - `npm run preview` – preview the production build locally.
 - `npm run lint` – run ESLint.
 
+## Deployment
+
+1. Build the optimized production assets:
+   ```bash
+   npm run build
+   ```
+2. Deploy the contents of the generated `dist/` folder to your preferred static hosting service. For example, you can push it to a GitHub repository and connect that repo to [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/).
+
 ## Project Structure
 
 Source code lives in the `src/` directory. Major components include:
